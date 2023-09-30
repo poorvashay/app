@@ -1,5 +1,5 @@
 # Use the official OpenJDK base image with the desired Java version
-FROM openjdk:11
+FROM openjdk:latest
 
 # Set a working directory within the container
 WORKDIR /app
